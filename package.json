@@ -18,12 +18,13 @@
     "start": "parcel index.html"
   },
   "dependencies": {
-    "postcss-preset-env": "^6.4.0"
+    "postcss-preset-env": "^6.4.0",
+    "reset.css": "^2.0.2"
   },
-  "postcss" :{
-    "plugins" :{
-      "postcss-preset-env" :{
-        "stage" : 0
+  "postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
       }
     }
   }
