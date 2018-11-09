@@ -184,3 +184,8 @@ body {
     align-items: center;
     padding: 15px var(--padding);
 }
+
+.recipe .recipe__button{
+    background-color: transparent;
+    border: none;
+}
