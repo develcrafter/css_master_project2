@@ -1,77 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
-    <link rel="stylesheet" href="clone2.css">
-</head>
-<body>
-    <header class="header">
-        <h1 class="header__title">Add meals</h1>
-    </header>
+    <link rel="stylesheet" href="clone2.css" />
+  </head>
+  <body>
+    <header class="header"><h1 class="header__title">Add meals</h1></header>
 
     <nav class="category">
-        <ul class="category__list">
-            <li class="category__item"><span class="item__icon"><span class="icon__emoji">🍜</span></span>
-                <span class="item__text">Ramen</span>
-            </li>
-            <li class="category__item"><span class="item__icon"><span class="icon__emoji">🍕</span></span>
-                <span class="item__text">Pizza</span>
-            </li>
-            <li class="category__item"><span class="item__icon"><span class="icon__emoji">🥩</span></span>
-                <span class="item__text">Meat</span>
-            </li>
-            <li class="category__item"><span class="item__icon"><span class="icon__emoji">🥗</span></span>
-                <span class="item__text">Veggies</span>
-            </li>
-        </ul>
+      <ul class="category__list">
+        <li class="category__item">
+          <span class="item__icon"><span class="icon__emoji">🍜</span></span>
+          <span class="item__text">Ramen</span>
+        </li>
+        <li class="category__item">
+          <span class="item__icon"><span class="icon__emoji">🍕</span></span>
+          <span class="item__text">Pizza</span>
+        </li>
+        <li class="category__item">
+          <span class="item__icon"><span class="icon__emoji">🥩</span></span>
+          <span class="item__text">Meat</span>
+        </li>
+        <li class="category__item">
+          <span class="item__icon"><span class="icon__emoji">🥗</span></span>
+          <span class="item__text">Veggies</span>
+        </li>
+      </ul>
     </nav>
 
     <section class="featured">
-        <h3 class="featured-title">Featured meals</h3>
-        <div class="featured__wrapper">
-            <article class="featured-meal">
-                <h4 class="featured-meal__title">Pizza Flatbread and Tarts</h4>
-                <button class="featured-meal__btn">➕</button>
-            </article>
-        </div>
+      <h3 class="featured-title">Featured meals</h3>
+      <div class="featured__wrapper">
+        <article class="featured-meal">
+          <h5 class="featured-meal__title">Beef Ramen Noodle Soup</h5>
+          <button class="featured-meal__btn">➕</button>
+        </article>
+        <article class="featured-meal">
+          <h5 class="featured-meal__title">Coconut Curry Noodle Bowls</h5>
+          <button class="featured-meal__btn">➕</button>
+        </article>
+        <article class="featured-meal">
+          <h5 class="featured-meal__title">Tiramisu</h5>
+          <button class="featured-meal__btn">➕</button>
+        </article>
+        <article class="featured-meal">
+          <h5 class="featured-meal__title">Vegan Lemon Tarts</h5>
+          <button class="featured-meal__btn">➕</button>
+        </article>
+      </div>
     </section>
 
     <section class="recipes">
-        <ul class="recipes__list">
-            <li class="recipe">
-                <span class="recipe__title">Robust Shoyu Rame</span>
-                <button class="recipe__btn"><i class="fas fa-plus"></i></button>
-            </li>
-            <li class="recipe">
-                <span class="recipe__title">Nutella Hot Chocolate</span>
-                <button class="recipe__btn"><i class="fas fa-check"></i></button>
-            </li>
-            <li class="recipe">
-                <span class="recipe__title">Easy Beef Korean Bibimbap</span>
-                <button class="recipe__btn"><i class="fas fa-plus"></i></button>
-            </li>
-        </ul>
+      <ul class="recipes__list">
+        <li class="recipe">
+          <span class="recipe__title">Robust Shoyu Rame</span>
+          <button class="recipe__btn"><i class="fas fa-plus"></i></button>
+        </li>
+        <li class="recipe">
+          <span class="recipe__title">Nutella Hot Chocolate</span>
+          <button class="recipe__btn"><i class="fas fa-check"></i></button>
+        </li>
+        <li class="recipe">
+          <span class="recipe__title">Easy Beef Korean Bibimbap</span>
+          <button class="recipe__btn"><i class="fas fa-plus"></i></button>
+        </li>
+      </ul>
     </section>
 
     <nav class="navigation">
-        <a href="" class="nav-tab">
-            <i class="far fa-eye"></i>
-            <span class="nav-tab__title">Explore</span>
-        </a>
-        <a href="" class="nav-tab">
-            <i class="fas fa-utensils"></i>
-            <span class="nav-tab__title">Meals</span>
-        </a>
-        <a href="" class="nav-tab">
-            <i class="fas fa-shopping-basket"></i>
-            <span class="nav-tab__title">Shopping</span>
-        </a>
+      <a href="" class="nav-tab nav-tab--selected">
+        <span class="icon__circle">
+          <i class="far fa-eye"></i>
+        </span>
+        <span class="nav-tab__title">Explore</span>
+      </a>
+      <a href="" class="nav-tab">
+        <span class="icon__circle">
+          <i class="fas fa-utensils"></i>
+        </span>        
+        <span class="nav-tab__title">Meals</span>
+      </a>
+      <a href="" class="nav-tab">
+        <span class="icon__circle">
+          <i class="fas fa-shopping-basket"></i>
+        </span>        
+        <span class="nav-tab__title">Shopping</span>
+      </a>
     </nav>
 
     <!-- scripts -->
-    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
-</body>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"
+      integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
