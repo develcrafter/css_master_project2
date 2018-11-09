@@ -1,13 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Copy from Nicolas</title>
-    <link rel="stylesheet" href="copy.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To follow along with Nico's working</title>
+    <link rel="stylesheet" href="copy.css" />
+  </head>
+  <body>
+    <header class="header"><h1 class="header__title">Add meals</h1></header>
+
+    <nav class="category">
+      <ul class="category__list">
+        <li class="category__item">
+          <span class="item__icon"><span class="item__emoji">🥪</span></span>
+          <span class="item__text">All</span>
+        </li>
+        <li class="category__item">
+          <span class="item__icon"><span class="item__emoji">🍕</span></span>
+          <span class="item__text">Pizza</span>
+        </li>
+        <li class="category__item">
+          <span class="item__icon"><span class="item__emoji">🥩</span></span>
+          <span class="item__text">Meat</span>
+        </li>
+        <li class="category__item">
+          <span class="item__icon"><span class="item__emoji">🥗</span></span>
+          <span class="item__text">Veggi</span>
+        </li>
+      </ul>
+    </nav>
+
+    <section class="featured">
+        <h3 class="featured__title">Featured meals</h3>
+        <div class="featured__wrapper">
+            <article class="featured-meal">
+                <span class="featured-meal__title">Spicy Sausage Pizza</span>
+                <button class="featured-meal__button"><span>➕</span></button>
+            </article>
+        </div>
+    </section>
+
+    <section class="recipes">
+        <ul class="recipes__list">
+            <li class="recipe">
+                <span class="recipe__name">Classic Pepperoni Pizza</span>
+                <button class="recipe__button">➕</button>
+            </li>
+            <li class="recipe">
+                <span class="recipe__name">Pesto, Feta, and Veggie Pizza</span>
+                <button class="recipe__button">➕</button>
+            </li>
+            <li class="recipe">
+                <span class="recipe__name">Chicken Bacon Ranch Pizza</span>
+                <button class="recipe__button">➕</button>
+            </li>
+        </ul>
+    </section>
+
+    <nav class="navigation">
+        <a href="" class="nav-tab">
+            <span class="nav__icon"><i class="far fa-eye"></i></span>
+            <span class="nav__title">Explore</span>
+        </a>
+        <a href="" class="nav-tab">
+            <span class="nav__icon"><i class="fas fa-utensils"></i></span>
+            <span class="nav__title">Meals</span>
+        </a>
+        <a href="" class="nav-tab">
+            <span class="nav__icon"><i class="fas fa-shopping-basket"></i></span>
+            <span class="nav__title">Shopping</span>
+        </a>
+    </nav>
     
-</body>
+    <!-- Scripts -->
+    <!-- font-awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+  </body>
 </html>
